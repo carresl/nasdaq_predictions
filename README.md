@@ -1,4 +1,4 @@
-# trade-ratings
+# Selecting Stocks from the Nasdaq 100 using Machine Learning
 
 ## Overview
 
@@ -10,7 +10,7 @@ The Google Colab notebook contains several parameters which were tuned over many
 ## Methodology
 
 ### Data Splitting
-The input data is a time series of the previous 200 days of open, high, low, close, and volume (OHLCV) data. Training data is cutoff at 550 calendar days before the current prediction day to ensure that in the worst case (many market holidays) there will be no overlap between training, validation, and testing data. Training data is also restricted to only the four previous years to ensure relevance of the data. Validation data is cutoff at the day before the current prediction day and 200 days before the last training day to ensure no leakage from the training data.
+The input data is a time series of the previous 200 days of open, high, low, close, and volume (OHLCV) data. Training data is cutoff at 550 calendar days before the current prediction day to ensure that in the worst case (when there are many market holidays) there will be no overlap between training, validation, and testing data. Training data is also restricted to only the four previous years to ensure relevance of the data. Validation data is cutoff at the day before the current prediction day and 200 days before the last training day to ensure no leakage from the training data.
 
 ### Model
 The model that creates the trade ratings is a neural network that contains two LSTM layers (the first returns sequences), then two fully-connected (Dense) layers with multiple units, and finally one Dense layer for the output. This model outputs a predicted gain for each stock over the next 45 trading days
