@@ -3,6 +3,10 @@
 ## Overview
 In this project, I aim to outperform the Nasdaq 100 (QQQ) by selecting stocks from the index which have the most favorable risk-adjusted returns.
 
+Difference_in_Ratings.ipynb runs a trading simulation from January 2, 2024 through May 6, 2025. At the end of the notebook, it outputs the results of t-test for the hypothesis that the average gain in stocks which were given ratings greater than one is greater than the average gain in stocks which were given a rating of less than negative one. The t-statistic is 1.691 with a p-value of 0.0462, making it significant at the 5% level.
+
+Trading_Simulations.ipynb runs ten trading simulations starting on January 2, 2024 through June 9, 2025. At the end of the notebook, it outputs the results of a t-test for the hypothesis that average gain across the ten simulations outperforms the gain of the QQQ ETF over the same time period. The t-statistic is 
+
 ## Methodology
 
 ### Data Splitting
@@ -26,11 +30,11 @@ Performance is evaluated in two ways:
 The first method will indicate whether the ratings are actually effective at differentiating between overperforming and underperforming stocks, and the second method will indicate whether this strategy is capable of consistently generating alpha.
 
 ## Results
-The mean gain over 45 trading days for was 2.11% for stocks with a rating less than negative one, and 5.93% for stocks with a rating greater than one. The t-statistic for the hypothesis that stocks with a rating greater than one have higher average gains than stocks with ratings less than negative one was 1.691 with a p value of 0.0462. This is significant at the 5% level, and therefore, it can be concluded that stocks with a rating greater than one have average higher gains than stocks with scores less than negative one.
+The mean gain over 45 trading days for was 2.11% for stocks with a rating less than negative one, and 5.93% for stocks with a rating greater than one. The t-statistic for the hypothesis that stocks with a rating greater than one have higher average gains than stocks with ratings less than negative one was 1.691 with a p-value of 0.0462. This is significant at the 5% level, and therefore, it can be concluded that stocks with a rating greater than one have average higher gains than stocks with scores less than negative one.
 
 ## Discussion & Future Work
 
-// discussions
+limitations: small testing period, uncertain if robust to market downturn and other market conditions
 
 
 *Thanks for taking the time to read, feel free to contact me via LinkedIn (linkedin.com/in/carres) or email (clagro@andrew.cmu.edu) if you have any questions or thoughts*
