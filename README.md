@@ -1,11 +1,7 @@
 # Selecting Stocks from the Nasdaq 100 using Machine Learning
 
 ## Overview
-
-In this project I aim to select stocks based on expected risk-adjusted returns. The goal is to select stocks from the Nasdaq 100 (QQQ) which are expected to have 
-
-The Google Colab notebook contains several parameters which were tuned over many simulations but can still be adjusted for future testing.
-
+In this project, I aim to outperform the Nasdaq 100 (QQQ) by selecting stocks from the index which have the most favorable risk-adjusted returns.
 
 ## Methodology
 
