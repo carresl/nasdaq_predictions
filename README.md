@@ -49,6 +49,7 @@ The mean return over ten simulations using my strategy was 38.14% (median 47.19%
 8) 15.03%
 9) 74.49%
 10) 3.53%
+
 Clearly, there is high variance between the performance of each simulation which raises concerns about the reliability of the strategy and makes it impossible to rule out the possibility that the outperformance is due to random chance. This is reflected in the t-statistic of 0.6722 and p-value of 0.259 for the hypothesis that the mean return using my strategy is greater than the performance of QQQ over the same testing period.
 
 ## Discussion
