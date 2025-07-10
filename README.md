@@ -50,7 +50,7 @@ The mean return over ten simulations using my strategy was 38.14% (median: 47.19
 9) 74.49%
 10) 3.53%
 
-Clearly, there is high variance between the performance of each simulation which raises concerns about the reliability of the strategy and makes it impossible to rule out the possibility that the outperformance is due to random chance. This is reflected in the t-statistic of 0.6722 and p-value of 0.259 for the hypothesis that the mean return using my strategy is greater than the performance of QQQ over the same testing period.
+Clearly, there is high variance in the returns of the simulations which raises concerns about the reliability of the strategy and makes it impossible to rule out the possibility that the outperformance is due to random chance. This is reflected in the t-statistic of 0.6722 and p-value of 0.259 for the hypothesis that the mean return using my strategy is greater than the performance of QQQ over the same testing period.
 
 ## Discussion
 The result of the first test is highly promising as it shows that the model is capable of identifying stocks that are likely to have greater returns. This result is promising for optimizing an ETF to remove underperformers and only trade those expected to outperform.
