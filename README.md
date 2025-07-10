@@ -38,7 +38,7 @@ The first method will indicate whether the ratings are actually effective at dif
 Across 206 predictions, the mean gain over 45 trading days for was 2.11% for stocks with a rating less than negative one, and 5.93% for stocks with a rating greater than one. The t-statistic for the hypothesis that stocks with a rating greater than one have higher average gains than stocks with ratings less than negative one was 1.691 with a p-value of 0.0462. This is significant at the 5% level, and therefore, it can be concluded that stocks with a rating greater than one have average higher gains than stocks with scores less than negative one.
 
 ### Test #2
-The mean return over ten simulations using my strategy was 38.14% (median: 47.19%) compared with a 32.80% return in QQQ over the same time period. Although this result seems to imply that my strategy is effective at outperforming the ETF, a closer look at the results casts doubt on such a conclusion. The results of all ten simulations are as follows:
+The mean return over ten simulations using my strategy was 38.14% (median: 47.19%) compared with a 32.80% return in QQQ over the same time period. Although this result seems to imply that my strategy is effective at outperforming the ETF, a closer look at the results casts doubt on such a conclusion. The returns of all ten simulations are as follows:
 1) 47.32%
 2) 47.19%
 3) 62.73%
