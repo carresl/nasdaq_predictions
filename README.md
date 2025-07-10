@@ -5,8 +5,10 @@ In this project, I aim to outperform the Nasdaq 100 (QQQ) by selecting stocks fr
 1) The first aims to establish that the model I created has predictive power by comparing the average gain of stocks that were given low and high ratings by the model.
 2) The second aims to establish that the model is capable of outperforming the QQQ ETF by selecting stocks with favorable risk-adjusted returns.
 
+### Test #1
 Difference_in_Ratings.ipynb carries out the first test stated above by running a trading simulation from January 2, 2024 through May 6, 2025. At the end of the notebook, it outputs the results of t-test for the hypothesis that the average gain in stocks which were given ratings greater than one is greater than the average gain in stocks which were given a rating of less than negative one. The t-statistic is 1.691 with a p-value of 0.0462, making it significant at the 5% level. This establishes that the model has predictive power in forecasting the returns of a stock.
 
+### Test #2
 Trading_Simulations.ipynb carries out the second test stated above by running ten trading simulations starting on January 2, 2024 through June 9, 2025. At the end of the notebook, it outputs the results of a t-test for the hypothesis that average gain across the ten simulations outperforms the gain of the QQQ ETF over the same time period. The average gain across the ten simulations using my strategy was 38.14% which is greater than the 32.80% gain seen in QQQ. The t-test produced a t-statistic of 0.6722 with a p-value of 0.259. This means that although my strategy outperformed QQQ on average, there is insufficient evidence to suggest that this result is not due to random chance. This is an understandable result and aligns with the high variance between the returns in the simulations (see results for more).
 
 In the rest of this document I go into further details about the methodology and results and include a brief discussion of the limitations of the simulation which can be improved in the future.
