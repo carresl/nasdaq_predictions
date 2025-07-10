@@ -16,7 +16,7 @@ The input data is a time series of the previous 200 days of open, high, low, clo
 The model that creates the trade ratings is a neural network that contains two LSTM layers (the first returns sequences), then two fully-connected (Dense) layers with multiple units, and finally one Dense layer for the output. This model outputs a predicted gain for each stock over the next 45 trading days
 
 ### Risk-adjustment
-Given the signifiacnt amount a model risk, predictions are adjust to account for this risk. To do this, predictions are made on the validation data, and the RMSE is calculated for each stock in the data set. Then, in the simulation all predictions are adjusted for the stock-specific model risk by dividing the prediction by the RMSE. Then only stocks which have a risk-adjusted rating larger than 1 (representing an attractive risk to return profile) are selected.
+Given the signifiacnt amount of model risk, predictions are adjust to account for this risk. To do this, predictions are made on the validation data, and the RMSE is calculated for each stock in the data set. Then, in the simulation all predictions are adjusted for the stock-specific model risk by dividing the prediction by the RMSE. Then only stocks which have a risk-adjusted rating larger than 1 (representing an attractive risk to return profile) are selected.
 
 ### Making Trades/Predictions
 Predictions are made for the gain of a given stock over the next 45 trading days (calculated as the change in price from the open on the day after the prediction is made through the open 45 trading days later).
