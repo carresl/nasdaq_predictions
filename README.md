@@ -1,4 +1,4 @@
-# Selecting Stocks from the Nasdaq 100 using Machine Learning
+# Beating the Nasdaq 100 by Predicting Top Performers
 
 ## Overview
 In this project, I aim to outperform the Nasdaq 100 (QQQ) by selecting stocks from the index which have the most favorable risk-adjusted returns. In pursuit of this goal, I run two separate tests:
@@ -6,6 +6,7 @@ In this project, I aim to outperform the Nasdaq 100 (QQQ) by selecting stocks fr
 2) The second aims to establish that the model is capable of outperforming the QQQ ETF by selecting stocks with favorable risk-adjusted returns.
 
 ### Test #1
+In the fold
 Difference_in_Ratings.ipynb carries out the first test stated above by running a trading simulation from January 2, 2024 through May 6, 2025. At the end of the notebook, it outputs the results of t-test for the hypothesis that the average gain in stocks which were given ratings greater than one is greater than the average gain in stocks which were given a rating of less than negative one. The t-statistic is 1.691 with a p-value of 0.0462, making it significant at the 5% level. This establishes that the model has predictive power in forecasting the returns of a stock.
 
 ### Test #2
