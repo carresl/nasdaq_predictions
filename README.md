@@ -1,11 +1,13 @@
 # Selecting Stocks from the Nasdaq 100 using Machine Learning
 
 ## Overview
-In this project, I aim to outperform the Nasdaq 100 (QQQ) by selecting stocks from the index which have the most favorable risk-adjusted returns.
+In this project, I aim to outperform the Nasdaq 100 (QQQ) by selecting stocks from the index which have the most favorable risk-adjusted returns. In pursuit of this goal, I run two separate tests. The first aims to establish that the model I created has predictive power by comparing the average gain of stocks that were given low and high ratings by the model. The second aims to establish that the model is capable of outperforming the QQQ ETF by selecting stocks with favorable risk-adjusted returns.
 
-Difference_in_Ratings.ipynb runs a trading simulation from January 2, 2024 through May 6, 2025. At the end of the notebook, it outputs the results of t-test for the hypothesis that the average gain in stocks which were given ratings greater than one is greater than the average gain in stocks which were given a rating of less than negative one. The t-statistic is 1.691 with a p-value of 0.0462, making it significant at the 5% level.
+Difference_in_Ratings.ipynb carries out the first test stated above by running a trading simulation from January 2, 2024 through May 6, 2025. At the end of the notebook, it outputs the results of t-test for the hypothesis that the average gain in stocks which were given ratings greater than one is greater than the average gain in stocks which were given a rating of less than negative one. The t-statistic is 1.691 with a p-value of 0.0462, making it significant at the 5% level. This establishes that the model has predictive power in forecasting the returns of a stock.
 
-Trading_Simulations.ipynb runs ten trading simulations starting on January 2, 2024 through June 9, 2025. At the end of the notebook, it outputs the results of a t-test for the hypothesis that average gain across the ten simulations outperforms the gain of the QQQ ETF over the same time period. The t-statistic is 
+Trading_Simulations.ipynb carries out the second test stated above by running ten trading simulations starting on January 2, 2024 through June 9, 2025. At the end of the notebook, it outputs the results of a t-test for the hypothesis that average gain across the ten simulations outperforms the gain of the QQQ ETF over the same time period. The t-statistic is
+
+In the rest of this document I go into further details about the methodology and results and include a brief discussion of the limitations of the simulation which can be improved in the future.
 
 ## Methodology
 
