@@ -56,7 +56,7 @@ The mean return over ten simulations using my strategy was 38.14% (median: 47.19
 Clearly, there is high variance in the returns of the simulations which raises concerns about the reliability of the strategy and makes it impossible to rule out the possibility that the outperformance is due to random chance. This is reflected in the t-statistic of 0.6722 and p-value of 0.259 for the hypothesis that the mean return using my strategy is greater than the performance of QQQ over the same testing period.
 
 ## Discussion
-The result of the first test is promising as it shows that the model has some capacity to differentiate between stocks which overperform and underperform the index. This suggests that the model may have the capability to identify stocks that will outperform an index and generate alpha.
+The result of the first test is promising as it shows that the model has some capacity to differentiate between stocks which overperform and underperform the index. This suggests that the model may have the capability to identify stocks that will outperform the index and generate alpha.
 
 The result of the second test is somewhat disappointing. Although the result from the first test suggests that it is possible to select outperforming stocks from an ETF and only buy those, the results of the simulation suggest that in reality this task is more difficult than it seems. A closer look at the simulation reports shows that the reason for this is likely a lack of diversity. When my strategy is wrong, it is often wrong in an position of large size. In an ETF, diversity among a much larger number of positions mitigates such a risk.
 
