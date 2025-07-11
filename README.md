@@ -1,4 +1,4 @@
-# Beating the Nasdaq 100 by Predicting Top Performers
+# Beating the Nasdaq-100 Index by Predicting Top Performers
 
 ## Overview
 In this project, I aim to outperform the Nasdaq-100 (QQQ) by selecting stocks from the index which have the most favorable risk-adjusted returns. In pursuit of this goal, I run two separate tests:
@@ -73,5 +73,6 @@ There were several limitations that affected the results of this project. A coup
 
 ### Final Thoughts
 Although I do not believe there is any reason to believe that my strategy is capable of outperforming the ETF in the long run, I think the result of the first test does offer significant promise for future work. The model was able to effectively differentiate between stocks which underperformed and stocks that outperformed even given the aforementioned limitations. This is an exciting result and something that I believe can be built upon to create a profitable strategy.
+
 
 *Thanks for taking the time to read, feel free to contact me via LinkedIn (linkedin.com/in/carres) or email (clagro@andrew.cmu.edu) if you have any questions or thoughts*
