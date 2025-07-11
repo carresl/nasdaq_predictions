@@ -72,7 +72,7 @@ There were several limitations that affected the results of this project. A coup
 2) **Data:** I only used publicly available data for this project (specifically just daily OHLCV data). Obviously, this is not nearly enough data to make accurate predictions about future prices. As an individual, it is difficult to access high quality data especially given my restriction on spending money, so this added another major obstacle in achieving decent results.
 
 ### Final Thoughts
-Although I do not believe there is any reason to believe that my strategy is capable of outperforming the ETF in the long run, I think the result of the first test does offer significant promise for future work. The model was able to effectively differentiate between stocks which underperformed and stocks that outperformed even given the aforementioned limitations. This is an exciting result and something that I believe can be built upon to create a profitable strategy.
+Although I do not believe there is any reason to believe that my strategy is capable of outperforming the Nasdaq-100 in the long run, I do believe that the result of the first test does offer significant promise for future work. The model was able to effectively differentiate between stocks which underperformed and stocks that outperformed even given the aforementioned limitations. This is an exciting result and something that I believe can be built upon to create a profitable strategy.
 
 
 *Thanks for taking the time to read, feel free to contact me via LinkedIn (linkedin.com/in/carres) or email (clagro@andrew.cmu.edu) if you have any questions or thoughts*
