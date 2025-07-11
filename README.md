@@ -34,7 +34,7 @@ Performance is evaluated differently for each test:
   1) In Test 1, performance is evaluated using a t-test for difference in mean gain for stocks with a rating below negative one and stocks with a rating greater than one
   2) In Test 2, performance is evaluated using a t-test for difference in performance across ten simulations versus the performance of the QQQ ETF over the same time period
 
-The first method will indicate whether the ratings are effective at differentiating between overperforming and underperforming stocks, and the second method will indicate whether this is a viable strategy to outperform the Nasdaq-100.
+The first test will indicate whether the ratings are effective at differentiating between overperforming and underperforming stocks, and the second test will indicate whether this is a viable strategy to outperform the Nasdaq-100.
 
 ## Results
 ### Test #1
