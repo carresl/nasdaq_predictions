@@ -6,7 +6,7 @@ In this project, I aim to outperform the Nasdaq-100 (QQQ) by selecting stocks fr
 2) The second aims to establish that the model is capable of outperforming the QQQ ETF by selecting stocks with favorable risk-adjusted returns.
 
 ### Test #1
-In the Test 1 folder there are two files. Difference_in_Ratings.ipynb carries out the first test by running a trading simulation from January 2, 2024 through May 6, 2025. The Test1_results.csv file contains the ratings and percentage gain for each trade that is made during this simulation.
+In the Test 1 folder there are two files. Difference_in_Ratings.ipynb carries out the first test by running a trading simulation from January 2, 2023 through May 6, 2025. The Test1_results.csv file contains the ratings and percentage gain for each trade that is made during this simulation.
 At the end of the Jupyter Notebook, a t-test is performed for the hypothesis that the average gain in stocks which were given ratings greater than one is greater than the average gain in stocks which were given a rating of less than negative one. The t-statistic is 1.691 with a p-value of 0.0462, making it significant at the 5% level. This establishes that the model has predictive power in forecasting the returns of a stock.
 
 ### Test #2
