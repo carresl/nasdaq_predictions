@@ -76,4 +76,4 @@ Although I do not believe there is any reason to believe that my strategy is cap
 
 
 
-*Thanks for taking the time to read, feel free to contact me at clagro@andrew.cmu.edu or via [LinkedIn](linkedin.com/in/carres) if you have any questions or thoughts*
+*Thanks for taking the time to read, feel free to contact me at clagro@andrew.cmu.edu or via [LinkedIn](https://linkedin.com/in/carres) if you have any questions or thoughts*
